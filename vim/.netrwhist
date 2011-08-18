@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/jadams/.vim.before_vimpack'
+let g:netrw_dirhist_2='/home/jadams/ruby/vimpack/lib'
+let g:netrw_dirhist_3='/home/jadams/ruby/vimpack/lib/vimpack'
+let g:netrw_dirhist_4='/home/jadams/ruby/vimpack/lib/vimpack/models'
+let g:netrw_dirhist_5='/home/jadams/ruby/vimpack/lib'
+let g:netrw_dirhist_6='/home/jadams/ruby/vimpack/lib/vimpack'
+let g:netrw_dirhist_7='/home/jadams/ruby/vimpack/lib'

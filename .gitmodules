@@ -1,0 +1,27 @@
+[submodule "scripts/utility/pathogen.vim"]
+	path = scripts/utility/pathogen.vim
+	url = https://github.com/vim-scripts/pathogen.vim
+[submodule "scripts/utility/CSApprox"]
+	path = scripts/utility/CSApprox
+	url = https://github.com/vim-scripts/CSApprox
+[submodule "scripts/color_scheme/Color-Sampler-Pack"]
+	path = scripts/color_scheme/Color-Sampler-Pack
+	url = https://github.com/vim-scripts/Color-Sampler-Pack
+[submodule "scripts/utility/fugitive.vim"]
+	path = scripts/utility/fugitive.vim
+	url = https://github.com/vim-scripts/fugitive.vim
+[submodule "scripts/utility/extradite.vim"]
+	path = scripts/utility/extradite.vim
+	url = https://github.com/vim-scripts/extradite.vim
+[submodule "scripts/utility/rails.vim"]
+	path = scripts/utility/rails.vim
+	url = https://github.com/vim-scripts/rails.vim
+[submodule "scripts/color_scheme/Solarized"]
+	path = scripts/color_scheme/Solarized
+	url = https://github.com/vim-scripts/Solarized
+[submodule "scripts/utility/Syntastic"]
+	path = scripts/utility/Syntastic
+	url = https://github.com/vim-scripts/Syntastic
+[submodule "scripts/utility/Gist.vim"]
+	path = scripts/utility/Gist.vim
+	url = https://github.com/vim-scripts/Gist.vim
