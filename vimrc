@@ -14,7 +14,6 @@ let g:CSApprox_verbose_level=0
 set encoding=utf-8
 
 " Whitespace stuff
-set nowrap
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
@@ -43,6 +42,36 @@ if has("mac")
 elseif has("unix")
   let g:gist_clip_command = 'xclip -selection clipboard'
 end
+
+" Make tab avigation nicer
+map <C-J> :tabn<CR>
+map <C-K> :tabp<CR>
+
+" Make opening files in a new tab nicer
+" NOTE: This overrides a vim default for C-O, but is way nicer imo
+map <C-O> :tabnew 
+
+" Show trailing whitespace and spaces before a tab:
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\\t/
+
+" Turn off menu in gui
+set guioptions="agimrLt"
+
+" Turn off mouse click in gui
+set mouse=""
+
+" use solarized theme
+syntax enable
+set background=dark
+colorscheme solarized
+
+" highlight the current line
+set cursorline
+
+" Show linenumbers
+set number
+set ruler
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
