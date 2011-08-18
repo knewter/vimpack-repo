@@ -43,7 +43,7 @@ elseif has("unix")
   let g:gist_clip_command = 'xclip -selection clipboard'
 end
 
-" Make tab avigation nicer
+" Make tab navigation nicer
 map <C-J> :tabn<CR>
 map <C-K> :tabp<CR>
 
