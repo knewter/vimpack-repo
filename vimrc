@@ -62,6 +62,7 @@ set guioptions="agimrLt"
 set mouse=""
 
 " use solarized theme
+let g:solarized_termtrans=0
 syntax enable
 set background=dark
 colorscheme solarized
